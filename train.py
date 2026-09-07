@@ -59,7 +59,7 @@ model.compile(
 
 model.fit(
     x_train, y_train,
-    epochs=5000,
+    epochs=100,
     validation_data=(x_test, y_test),
     verbose=1
 )
