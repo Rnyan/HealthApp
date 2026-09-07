@@ -68,9 +68,10 @@ The output should print a recipe id, a category, and the confidence level.
 - Rahz Nyanffor — [@Rnyan](https://github.com/Rnyan)
 
 ## Version History
-
+* 0.2
+    * Model prediction and recipe filtering
 * 0.1
-    * Initial Release
+    * Initial recipe dataset and model training prototype
 
 ## License
 
