@@ -1,2 +1,86 @@
 # HealthApp
-This health app uses an AI that will recommend a recipe based on user input.
+
+The main purpose of this app is to help people eat healthier, and this app does it through providing recipes that fit the user's needs.
+
+## Description
+
+The current app is a small prototype where I am testing how TensorFlow works. Currently, I only have a model that is trained and then used to predict the best "recipe" based on hard coded values. The next goal is to build a prototype flutter app and then later use a recipe API for the AI to find recipes on and turn my current model into an API for flutter to send and pull data from.
+
+## Getting Started
+
+### Dependencies
+
+* Windows 10 or higher
+* Python 3.11 or 3.13
+* TensorFlow
+* pandas
+* joblib
+* scikit-learn
+
+### Installing
+
+1. Install Python 3.11 or 3.13 from [python.org](https://www.python.org/downloads/).
+2. Download the project from this repository, or clone it:
+
+```powershell
+git clone https://github.com/USERNAME/HealthApp.git
+cd HealthApp
+```
+
+3. Create and activate a virtual environment:
+
+```powershell
+py -3.13 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+4. Install the required dependencies:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+5. `recipes.csv` and `restrictions.csv` should be in the project folder.
+
+The `models` folder and trained model files are created when `train.py` is run.
+
+### Executing program
+
+* Open powershell in the project folder
+```powershell
+cd "C:\Users\burrito\OneDrive\Documents\PythonProject"
+```
+* Install the dependencies through the requirements file:
+```powershell
+python -m pip install -r requirements.txt
+```
+* Run train.py to train the model
+```powershell
+python train.py
+```
+* Have the model predict the best recipe
+```
+python predict.py
+```
+The output should print a recipe id, a category, and the confidence level.
+
+## Authors
+Rahz Nyanffor
+
+## Version History
+
+* 0.1
+    * Initial Release
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+- TensorFlow documentation: https://www.tensorflow.org/
+- pandas documentation: https://pandas.pydata.org/docs/
+- scikit-learn documentation: https://scikit-learn.org/stable/
+- Python documentation: https://docs.python.org/3/
+
+AI tools were used for guidance and assistance on the project.
