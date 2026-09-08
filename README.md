@@ -61,7 +61,7 @@ python predict.py
 The output should print a recipe id, a category, and the confidence level.
 
 ## Authors
-- Rahz Nyanffor — [@Rnyan](https://github.com/Rnyan)
+— [@Rnyan](https://github.com/Rnyan)
 
 ## Version History
 * 0.2
