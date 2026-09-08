@@ -26,21 +26,25 @@ The current app is a small prototype where I am testing how TensorFlow works. Cu
 git clone https://github.com/Rnyan/HealthApp.git
 cd HealthApp
 ```
+3. Set the path to the project folder:
+```powershell
+cd "C:\path\to\NameOfProjectFolder"
+```
 
-3. Create and activate a virtual environment:
+4. Create and activate a virtual environment:
 
 ```powershell
 py -3.13 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-4. Install the required dependencies:
+5. Install the required dependencies:
 
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-5. `recipes.csv` and `restrictions.csv` should be in the project folder.
+6. `recipes.csv` and `restrictions.csv` should be in the project folder.
 
 The `models` folder and trained model files are created when `train.py` is run.
 
