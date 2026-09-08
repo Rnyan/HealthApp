@@ -66,7 +66,7 @@ model.compile(
     metrics=["accuracy"]
 )
 
-# trains the model on the training data for 5000 epochs with validation on the test data
+# trains the model on the training data for 100 epochs with validation on the test data
 model.fit(
     x_train, y_train,
     epochs=100,
