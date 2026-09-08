@@ -46,10 +46,6 @@ The `models` folder and trained model files are created when `train.py` is run.
 
 ### Executing program
 
-* Open powershell in the project folder
-```powershell
-cd "C:\Users\burrito\OneDrive\Documents\PythonProject"
-```
 * Install the dependencies through the requirements file:
 ```powershell
 python -m pip install -r requirements.txt
