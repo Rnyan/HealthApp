@@ -25,11 +25,7 @@ The current app is a small prototype where I am testing how TensorFlow works. Cu
 git clone https://github.com/Rnyan/HealthApp.git
 cd HealthApp
 ```
-3. Set the path to the project folder:
-```powershell
-cd "C:\path\to\NameOfProjectFolder"
-```
-
+3. Open a terminal in the project folder.
 4. Create and activate a virtual environment:
 
 ```powershell
@@ -49,10 +45,6 @@ The `models` folder and trained model files are created when `train.py` is run.
 
 ### Executing program
 
-* Install the dependencies through the requirements file:
-```powershell
-python -m pip install -r requirements.txt
-```
 * Run train.py to train the model
 ```powershell
 python train.py
@@ -84,3 +76,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - Python site: https://docs.python.org/3/
 
 AI tools were used for guidance and assistance on the project.
+
+## Disclaimer
+
+This prototype is intended for educational use and general wellness support. It is not medical advice.
