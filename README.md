@@ -23,7 +23,7 @@ The current app is a small prototype where I am testing how TensorFlow works. Cu
 2. Download the project from this repository, or clone it:
 
 ```powershell
-git clone https://github.com/USERNAME/HealthApp.git
+git clone https://github.com/Rnyan/HealthApp.git
 cd HealthApp
 ```
 
