@@ -75,9 +75,9 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Acknowledgments
 
-- TensorFlow documentation: https://www.tensorflow.org/
-- pandas documentation: https://pandas.pydata.org/docs/
-- scikit-learn documentation: https://scikit-learn.org/stable/
-- Python documentation: https://docs.python.org/3/
+- TensorFlow site: https://www.tensorflow.org/
+- pandas site: https://pandas.pydata.org/docs/
+- scikit-learn site: https://scikit-learn.org/stable/
+- Python site: https://docs.python.org/3/
 
 AI tools were used for guidance and assistance on the project.
