@@ -16,9 +16,9 @@ The current app is a small prototype where I am testing how TensorFlow works. Cu
 * pandas
 * joblib
 * scikit-learn
+* powershell
 
 ### Installing
-
 1. Install Python 3.11 or 3.13 from [python.org](https://www.python.org/downloads/).
 2. Download the project from this repository, or clone it:
 
